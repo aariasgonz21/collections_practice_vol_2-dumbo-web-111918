@@ -27,7 +27,7 @@ end
 
 def count_elements(array)
   array.each do |hash|
-    hash.group_by()
+    hash[:count] = 0
   end
 end
 

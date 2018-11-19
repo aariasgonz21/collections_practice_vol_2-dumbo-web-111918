@@ -30,7 +30,7 @@ def count_elements(array)
     outer_hash[:count] = 0
     name = outer_hash[:name]
     array.each do |inner_hash|
-      
+      if inner_hash[:na]
     end
   end
 end

@@ -28,8 +28,8 @@ end
 def count_elements(array)
   array.each do |outer_hash|
     outer_hash[:count] = 0
-    name = hash[:name]
-    array.each do | |
+    name = outer_hash[:name]
+    array.each do |inner_hash|
   end
 end
 

@@ -28,6 +28,7 @@ end
 def count_elements(array)
   array.each do |hash|
     hash[:count] = 0
+    name hash[:name]
   end
 end
 

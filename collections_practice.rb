@@ -26,10 +26,10 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.each do |hash|
-    hash[:count] = 0
+  array.each do |outer_hash|
+    outer_hash[:count] = 0
     name = hash[:name]
-    
+    array.each do | |
   end
 end
 
